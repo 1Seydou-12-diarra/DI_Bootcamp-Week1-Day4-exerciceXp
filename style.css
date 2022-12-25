@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+}
+
+section{
+    background-color: gainsboro;
+    height: 450px;
+    
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    background-color: black;
+    color: #fff;
+    height: 70px;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+header a:hover{
+    color: orange;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 35px 30px;
+    text-decoration: none;
+    width: 100px;
+    margin-right: 50px;
+  }
+  
+  li a:hover {
+    background-color:orange ;
+  }
+  
+  .active {
+    color: whitesmoke;
+  }
+ 
+/* banniere */
+.banniere{
+    background-image: url('images/headerback.jpg');
+    background-size: cover;
+    height: 80xp;
+    
+
+}
+.entete{
+    width: 70%;
+   margin: auto;
+   align-items: center;
+   padding-top: 120px;
+   
+}
+.entete h1{
+    color:black;
+    text-transform: capitalize;
+    margin-right: 759px;
+    webkit-text-stroke: 8px;
+	webkit-backround-clip: text;
+	background-clip: text;
+	background-position: 0 0;
+
+}
+button{
+    background-color: green;
+    height: 50px;
+    border-radius: 10px 10px 10px 10px;
+}
+input{
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+
+.entete .bouton a{
+    text-decoration: none;
+    color: #fff;
+    background-color:blue;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+/* H1 */
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 50px 0px;
+    color: black;
+    font-size: 25px;
+}
+
+.col {
+    border: 0px solid black;
+    border-color: red;
+    height:250px;
+    width:30%;
+    margin-left:2.1%;
+    display: inline-block;
+    
+    
+}
+
+
+.col-left {
+    border: 0px solid black;
+    border-color: red;
+    margin-left: 30px;
+}
+.col-mid {
+    border: 0px solid black;
+    border-color: red;
+    
+}
+.col-right {
+    border: 0px solid black;
+    border-color: red;}
+   
+button{
+    background-color: blue;
+}
+input{
+    height: 30px;
+}
